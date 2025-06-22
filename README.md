@@ -148,7 +148,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 ## ✍️ Author
-*   **Subhrato Som** (and team members as listed above)
+*   **Subhrato Som**
 
 ---
 ---
