@@ -1,4 +1,4 @@
-*(Data files like `train.parquet`, `test_samples.csv`, etc., are expected in appropriate subdirectories as specified in notebooks or `data/processed/`.)*
+
 
 ---
 
@@ -151,7 +151,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 *   **Subhrato Som** (and team members as listed above)
 
 ---
+---
 ## 🙏 Acknowledgements
 *   This project utilizes the Jigsaw/Conversation AI dataset from their Toxic Comment Classification Challenge on Kaggle.
 *   Built with invaluable open-source libraries including Scikit-learn, PyTorch, Hugging Face (Transformers, Datasets, Evaluate, Hub), Unsloth, Pandas, and others.
 *   The Gemma-3 fine-tuning notebook significantly benefits from the Unsloth library for efficient model training.
+*   The exploration of efficient model adaptation techniques in this project, such as LoRA for fine-tuning Gemma, draws inspiration from the rapidly advancing research landscape. We acknowledge influential works in this area, including novel approaches like those described in "[Text-to-LoRA: Instant Transformer Adaption](https://arxiv.org/abs/2506.06105)" by R. Charakorn, E. Cetin, Y. Tang, and R. T. Lange (arXiv:2506.06105; ICML 2025), which proposes methods for generating LoRA adapters directly from natural language task descriptions.
