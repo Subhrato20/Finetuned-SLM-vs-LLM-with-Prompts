@@ -146,14 +146,10 @@ This repository contains Jupyter notebooks, each implementing a different approa
 ## 📜 License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
-## ✍️ Author
-*   **Subhrato Som**
 
----
 ---
 ## 🙏 Acknowledgements
 *   This project utilizes the Jigsaw/Conversation AI dataset from their Toxic Comment Classification Challenge on Kaggle.
 *   Built with invaluable open-source libraries including Scikit-learn, PyTorch, Hugging Face (Transformers, Datasets, Evaluate, Hub), Unsloth, Pandas, and others.
 *   The Gemma-3 fine-tuning notebook significantly benefits from the Unsloth library for efficient model training.
-*   The exploration of efficient model adaptation techniques in this project, such as LoRA for fine-tuning Gemma, draws inspiration from the rapidly advancing research landscape. We acknowledge influential works in this area, including novel approaches like those described in "[Text-to-LoRA: Instant Transformer Adaption](https://arxiv.org/abs/2506.06105)" by R. Charakorn, E. Cetin, Y. Tang, and R. T. Lange (arXiv:2506.06105; ICML 2025), which proposes methods for generating LoRA adapters directly from natural language task descriptions.
+*   The comparative approach of this project, evaluating fine-tuned Smaller Language Models (SLMs) against prompted Large Language Models (LLMs), aligns with and draws inspiration from ongoing research in the field. We acknowledge influential works such as "[Fine-Tune an SLM or Prompt an LLM? The Case of Generating Low-Code Workflows](https://arxiv.org/abs/2505.24189)" by O. M. Ayala, P. Bechard, E. Chen, M. Baird, and J. Chen (arXiv:2505.24189), which explores similar trade-offs and considerations for domain-specific tasks.
